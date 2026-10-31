@@ -1,0 +1,153 @@
+
+body{
+    background: #f6f1ff;
+    color: #2b2140;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.65;
+}
+
+h1,h2,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3d2a63;
+}
+
+a:hover{
+    color: #3d2a63;
+}
+
+:focus-visible{
+    outline: 3px solid #6b4e9b;
+    outline-offset: 2px;
+}
+
+strong {
+    color: #3d2a63;
+}
+
+em{
+    color: #5f2fc0;
+}
+
+footer a {
+    color: #1a1a2e;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #5a5a8a;
+}
+
+address{
+    font-style: normal;
+}
+
+mark{
+    background:#ffe8a8;
+    color:var(--texto)
+}
+
+abbr{
+    text-decoration: underline dotted;
+}
+
+/*Menu*/
+body>header, body>footer{
+    background: #e6dcfa;
+    color: #2b2140;
+}
+
+.nav{
+    --bs-nav-link-color: #3d2a63;
+    --bs-nav-link-hover-color: #3d2a63;
+}
+
+.nav-pills{
+    --bs-nav-pills-link-active-bg: #6b4e9b;
+    --bs-nav-pills-link-active-color: #fff;
+}
+
+body>header .nav-link:hover{
+    background: #cdbbf0;
+}
+
+.subnav{
+    background: #fff;
+    border: 2px solid #cdbbf0;
+}
+
+.subnav .nav-link{
+    font-weight: 600;
+}
+
+.subnav .nav-link:hover{
+    background: #e6dcfa;
+}
+
+/*Cartões e Blocos*/
+.card{
+    border: 1px solid #cdbbf0;
+    background: #fff;
+}
+
+.hero{
+    background: #e6dcfa;
+}
+
+.table{
+    --bs-table-striped-bg: #f6f1ff;
+}
+
+.table thead th{
+    background: #6b4e9b;
+    color: #fff;
+}
+.table tfoot th, .table tfoot td{
+    background: #e6dcfa;
+}
+
+meter{
+    width: 100%;
+    accent-color: #6b4e9b;
+}
+
+details{
+    border:1px solid #cdbbf0;
+    border-radius: 60px;
+}
+
+summary{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/*Botões e formulário*/
+.btn-primary{
+    --bs-btn-bg: #6b4e9b;
+    --bs-btn-border-color: #6b4e9b;
+    --bs-btn-hover-bg: #3d2a63;
+    --bs-btn-hover-border-color: #3d2a63;
+    --bs-btn-active-bg:  #3d2a63;
+    --bs-btn-active-border-color: #3d2a63;
+}
+
+.btn-outline-secondary{
+    --bs-btn-color: #3d2a63;
+    --bs-btn-border-color: #6b4e9b;
+    --bs-btn-hover-bg: #e6dcfa;
+    --bs-btn-hover-color: #2b2140;
+    --bs-btn-hover-border-color: #6b4e9b;
+}
+
+.form-check-input:checked{
+    background: #6b4e9b;
+    border-color: #6b4e9b;
+}
+
+legend{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-control, .form-select{
+    border: 2px solid #8c7bb0;
+}
